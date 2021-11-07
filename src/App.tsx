@@ -42,19 +42,19 @@ function App() {
         <form onSubmit={handleSubmit(onSubmit)}>
           <div style={{display: 'grid', gridTemplateColumns: '1fr 4fr 5fr'}}>
             <label htmlFor="address">Address: </label>
-            <input type="text" id="address" value="0x1111111122222222333333334444444455555555" {...register("Address", {})} />
+            <input type="text" id="address" placeholder="0x1111111122222222333333334444444455555555" {...register("Address", {})} />
             <div></div>
             <label htmlFor="name">Name: </label>
-            <input type="text" id="name" value="Junk" {...register("Name", {})} />
+            <input type="text" id="name" placeholder="Junk" {...register("Name", {})} />
             <div></div>
             <label htmlFor="tags">Tags: </label>
-            <input type="text" id="tags" value="33-Junk" {...register("Tags", {})} />
+            <input type="text" id="tags" placeholder="33-Junk" {...register("Tags", {})} />
             <div></div>
             <label htmlFor="source">Source: </label>
-            <input type="text" id="source" value="Junk" {...register("Source", {})} />
+            <input type="text" id="source" placeholder="Junk" {...register("Source", {})} />
             <div></div>
             <label htmlFor="description">Description: </label>
-            <input type="text" id="description" value="Junk Description" {...register("Description", {})} />
+            <input type="text" id="description" placeholder="Junk Description" {...register("Description", {})} />
             <div></div>
             <div></div>
             <div>
